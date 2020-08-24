@@ -1,0 +1,5 @@
+﻿# csv_inventory.yaml
+
+plugin: vse_csv_plugin
+path_to_inventory: /home/devuser/csv_inventory
+csv_file: inventorySource.csv

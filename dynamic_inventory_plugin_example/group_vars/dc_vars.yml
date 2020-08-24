@@ -1,0 +1,3 @@
+﻿---
+ansible_user: dc.user@EXAMPLE.COM
+ansible_password: secretpassword

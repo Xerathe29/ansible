@@ -1,0 +1,9 @@
+Device Name,OOB_IP,Role,Platform,OS_Ver,variableGroup,connection,become,transport,port
+dc01.example.com,10.0.0.1,domainController,Windows,Server_2016,dc_vars,winrm,runas,kerberos,5985
+dc01.example.com,10.0.0.2,domainController,Windows,Server_2016,dc_vars,winrm,runas,kerberos,5985
+mail.example.com,10.0.0.3,mail,Windows,Server_2016,win_domain_vars,winrm,runas,kerberos,5985
+owa.example.com,10.0.0.4,mail,Windows,Server_2016,win_domain_vars,winrm,runas,kerberos,5985
+sql01.example.com,10.0.0.5,sql,Windows,Server_2016,win_domain_vars,winrm,runas,kerberos,5985
+sql02.example.com,10.0.0.6,sql,Windows,Server_2016,win_domain_vars,winrm,runas,kerberos,5985
+web.example.com,10.0.0.7,webServer,Linux,RHEL_8,rhel_vars,ssh,,,
+yum.example.com,10.0.0.8,yum,Linux,RHEL_8,rhel_vars,ssh,,,
